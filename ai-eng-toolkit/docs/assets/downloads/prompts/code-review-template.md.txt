@@ -1,0 +1,11 @@
+Review the following code for correctness, performance, and readability.
+
+Code:
+{{PASTE_CODE_HERE}}
+
+Respond in this structure:
+1. Summary (1-2 sentences)
+2. Correctness issues (if any)
+3. Performance considerations
+4. Readability / style suggestions
+5. Suggested rewrite (only if changes are non-trivial)

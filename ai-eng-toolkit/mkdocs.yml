@@ -1,0 +1,169 @@
+site_name: AI Engineering Toolkit
+site_description: Practical AI Engineering, Claude Code Skills, MCP Servers, Power BI, Qlik, Python and NVIDIA NIM.
+site_author: Your Name
+site_url: https://YOUR_GITHUB_USERNAME.github.io/ai-engineering-toolkit/
+
+repo_name: YOUR_GITHUB_USERNAME/ai-engineering-toolkit
+repo_url: https://github.com/YOUR_GITHUB_USERNAME/ai-engineering-toolkit
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2026 Your Name
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.tabs.link
+    - content.tooltips
+
+plugins:
+  - search:
+      lang: en
+  - awesome-pages
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+      fallback_to_build_date: true
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR_GITHUB_USERNAME
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/
+      name: LinkedIn
+  generator: false
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/mermaid-init.js
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Claude Code Skills:
+      - claude-code/index.md
+      - Screenshot Analysis Skill: claude-code/screenshot-analysis-skill.md
+      - Jira Automation Skill: claude-code/jira-automation-skill.md
+      - Power BI Modelling Skill: claude-code/powerbi-modelling-skill.md
+      - SQL Assistant Skill: claude-code/sql-assistant-skill.md
+      - Python Data Analysis Skill: claude-code/python-data-analysis-skill.md
+      - Qlik Debugging Skill: claude-code/qlik-debugging-skill.md
+      - File Search Skill: claude-code/file-search-skill.md
+      - Repository Analysis Skill: claude-code/repository-analysis-skill.md
+  - MCP Servers:
+      - mcp/index.md
+      - File System MCP: mcp/filesystem-mcp.md
+      - DuckDB MCP: mcp/duckdb-mcp.md
+      - Power BI MCP: mcp/powerbi-mcp.md
+      - Browser MCP: mcp/browser-mcp.md
+      - Git MCP: mcp/git-mcp.md
+      - PostgreSQL MCP: mcp/postgresql-mcp.md
+  - Power BI:
+      - powerbi/index.md
+      - Semantic Models: powerbi/semantic-models.md
+      - MCP Integration: powerbi/mcp-integration.md
+      - AI Assisted Development: powerbi/ai-assisted-development.md
+      - DAX: powerbi/dax.md
+      - Data Modelling: powerbi/data-modelling.md
+      - Best Practices: powerbi/best-practices.md
+  - Qlik:
+      - qlik/index.md
+  - Python:
+      - python/index.md
+  - SQL:
+      - sql/index.md
+  - NVIDIA NIM:
+      - nvidia-nim/index.md
+      - Model Comparison: nvidia-nim/model-comparison.md
+      - Getting Started: nvidia-nim/getting-started.md
+      - Integration Examples: nvidia-nim/integration-examples.md
+      - Performance: nvidia-nim/performance.md
+      - Example Applications: nvidia-nim/example-applications.md
+  - LLM Comparisons:
+      - llm-comparisons/index.md
+  - Prompt Library:
+      - prompts/index.md
+  - Examples:
+      - examples/index.md
+  - Downloads: downloads/index.md

@@ -1,0 +1,18 @@
+---
+name: powerbi-modelling
+description: >
+  Use this skill when a Power BI semantic model, DAX measure, or .pbip/TMDL
+  file is being reviewed or built.
+---
+
+# Power BI Modelling Skill
+
+## Instructions
+1. Read the TMDL/model.bim definitions provided.
+2. Check relationship cardinality and cross-filter direction for ambiguity.
+3. Flag common DAX anti-patterns (e.g. FILTER over full table scans, unnecessary iterators).
+4. Propose a corrected structure or measure, with a one-line rationale.
+
+## Constraints
+- Do not propose changes without explaining the specific issue they fix.
+- Prefer the simplest DAX expression that is still correct.

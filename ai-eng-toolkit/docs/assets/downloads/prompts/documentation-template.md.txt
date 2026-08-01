@@ -1,0 +1,5 @@
+Write user-facing documentation for the following feature, following this structure:
+Overview / Problem / Solution / Example / Notes.
+
+Feature description: {{FEATURE_DESCRIPTION}}
+Target audience: {{AUDIENCE}}

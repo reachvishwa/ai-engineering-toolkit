@@ -1,0 +1,19 @@
+---
+name: screenshot-analysis
+description: >
+  Use this skill when a screenshot of a dashboard, UI, or chart is provided
+  for analysis. Extracts visible values, identifies chart types, and flags
+  anomalies in a structured Markdown summary.
+---
+
+# Screenshot Analysis Skill
+
+## Instructions
+1. Identify each visual element in the screenshot (chart type, table, KPI card).
+2. Extract all visible labels and values.
+3. Flag anything that looks like an error, broken visual, or outlier.
+4. Output a structured Markdown summary with sections: Overview, Extracted Data, Possible Issues.
+
+## Constraints
+- Do not guess values that are not visible or legible — mark them as "not legible" instead.
+- Keep the summary under 300 words unless asked for more detail.

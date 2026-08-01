@@ -1,0 +1,9 @@
+You are analysing a dataset for a technical but non-expert audience.
+
+Dataset description: {{DATASET_DESCRIPTION}}
+Data (or a representative sample): {{DATA}}
+
+Provide:
+- 3-5 key observations
+- Any obvious data-quality issues
+- One suggested next analysis step

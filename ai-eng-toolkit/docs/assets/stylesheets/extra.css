@@ -1,0 +1,84 @@
+/* ---------- General polish ---------- */
+.md-typeset h1 {
+  font-weight: 700;
+}
+
+/* ---------- Hero banner ---------- */
+.hero {
+  padding: 3rem 1rem 2.5rem 1rem;
+  margin: -1.2rem -1.2rem 2rem -1.2rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  background: linear-gradient(135deg, var(--md-primary-fg-color) 0%, #283593 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 2.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.hero p.subtitle {
+  font-size: 1.15rem;
+  opacity: 0.92;
+  max-width: 46rem;
+  margin: 0 auto 1.5rem auto;
+}
+
+.hero .hero-buttons a {
+  margin: 0.25rem;
+}
+
+/* ---------- Badges row ---------- */
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.badge-row img {
+  height: 24px;
+}
+
+/* ---------- Card grid ---------- */
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.grid-cards .card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  padding: 1.1rem 1.2rem;
+  background: var(--md-default-bg-color);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.grid-cards .card:hover {
+  border-color: var(--md-accent-fg-color);
+  transform: translateY(-2px);
+}
+
+.grid-cards .card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+}
+
+.grid-cards .card p {
+  margin-bottom: 0.5rem;
+  font-size: 0.92rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ---------- Section title ---------- */
+.section-title {
+  margin-top: 2.5rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.3rem;
+}

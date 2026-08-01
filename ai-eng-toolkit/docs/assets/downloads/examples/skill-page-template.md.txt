@@ -1,0 +1,17 @@
+# Skill Name
+
+**Type:** Claude Code Skill
+
+## Overview
+
+## Problem
+
+## Solution
+
+## Example
+
+## Code snippets
+
+## Notes
+
+## References

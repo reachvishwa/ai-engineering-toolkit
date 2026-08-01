@@ -1,0 +1,23 @@
+# Server Name
+
+**Type:** MCP Server
+
+## Overview
+
+## Problem
+
+## Solution
+
+## Example
+
+## Code snippets
+
+```json
+{
+  "mcpServers": {}
+}
+```
+
+## Notes
+
+## References

@@ -1,0 +1,18 @@
+---
+name: sql-assistant
+description: >
+  Use this skill when the user asks for a SQL query, an explanation of one,
+  or a performance review, and can supply or reference a schema.
+---
+
+# SQL Assistant Skill
+
+## Instructions
+1. Confirm or request the relevant schema before writing SQL.
+2. Write SQL with inline comments explaining non-obvious logic.
+3. For performance questions, request or reason about EXPLAIN ANALYZE output.
+4. Suggest indexing or rewrite options where relevant.
+
+## Constraints
+- Default to standard SQL; note clearly when a dialect-specific feature is used.
+- Never assume table/column names that were not provided or discovered.
